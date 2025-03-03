@@ -6,4 +6,5 @@ export default defineConfig({
 
     site: 'rrahate-godaddy.github.io',
     base: '/test-gh',
+    outDir: 'dist', // Ensure this is set to 'dist'
 });
