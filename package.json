@@ -4,6 +4,8 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
@@ -11,5 +13,8 @@
   },
   "dependencies": {
     "astro": "^5.4.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
